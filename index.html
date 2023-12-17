@@ -1,55 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index </title>
-<style>
-#persl{ color: rgb(255, 255, 255); background-color: rgb(0, 33, 71);
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <style>
+      #persl {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 33, 71);
+        margin: 10px;
+        padding: 10px;
+      }
+      #info {
+        padding: 10px 30px;
+      }
 
-}
+      #info_footer {
+        padding: 10px 10px;
+        text-decoration: none;
+      }
 
-footer{ color: rgb(255, 255, 255); background-color: rgb(0, 33, 71);
+      footer {
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 33, 71);
 
-}
-</style>
- 
-</head>
-<body>
-   <!-- Header Section -->
-   <header id="persl" >
-    <span > &nbsp;&nbsp;&nbsp;&nbsp;Name: Priyanka Pillewan &nbsp;&nbsp;&nbsp;&nbsp; Mobile: 9898 5656 52 &nbsp;&nbsp;&nbsp;&nbsp; Email: priyanka.pillewan@gmail.com</span>
-   </header>
-   <hr>
-   <!-- Navigation Section -->
-   <nav>&nbsp;&nbsp;&nbsp;
-    <a href="home.html" target="mainFrame">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="techStack.html" target="mainFrame">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="project.html" target="mainFrame">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="education.html" target="mainFrame">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="others.html" target="mainFrame">OTHERS</a>&nbsp;&nbsp;&nbsp;&nbsp;
-   </nav>
-   <hr>
+        margin: 10px;
+        padding: 10px;
+      }
+      nav a {
+        /* border: 3px solid red;
+         */
 
-   <!-- Body Section -->
-   <iframe src="home.html" name="mainFrame" frameborder="0" width="1500" height="600" style="background-color: rgb(240,240,243);">
+        margin-right: 40px;
+        text-decoration: none;
+        padding: 20px;
+      }
+      #homeLink {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="persl">
+      <span id="info"> Name: Priyanka Pillewan </span>
+      <span id="info"> Mobile: 9898 5656 52 </span>
 
-   </iframe>
-   
+      <span id="info"> Email: priyanka.pillewan@gmail.com </span>
+    </header>
+    <hr />
+    <!-- Navigation Section -->
+    <nav>
+      <a href="home.html" target="mainFrame" id="homeLink">HOME</a>
+      <a href="techStack.html" target="mainFrame">TECH STACK</a>
+      <a href="project.html" target="mainFrame">PROJECT</a>
+      <a href="education.html" target="mainFrame">EDUCATION</a>
+      <a href="others.html" target="mainFrame">OTHERS</a>
+    </nav>
+    <hr />
 
-   <!-- Footer Section -->
+    <!-- Body Section -->
+    <iframe
+      src="home.html"
+      name="mainFrame"
+      frameborder="0"
+      width="1500"
+      height="500"
+      style="background-color: rgb(240, 240, 243)"
+    >
+    </iframe>
 
-   <footer >&nbsp;&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/PriyankaPillewan" target="_blank" style="color: rgb(249, 250, 251);">Linked In</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/priyapillewan" target="_blank" style="color: rgb(249, 250, 251);">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.naukri.com/PriyankaPillewan" target="_blank" style="color: rgb(249, 250, 251);">Naukri</a>&nbsp;&nbsp;&nbsp;&nbsp;
-   </footer>
+    <!-- Footer Section -->
 
-
-
-
-
-   
-
-</body>
+    <footer>
+      <a
+        href="https://www.linkedin.com/PriyankaPillewan"
+        target="_blank"
+        style="color: rgb(249, 250, 251)"
+        id="info_footer"
+        >Linked In</a
+      >
+      <a
+        href="https://github.com/priyapillewan"
+        target="_blank"
+        style="color: rgb(249, 250, 251)"
+        id="info_footer"
+        >GitHub</a
+      >
+      <a
+        href="https://www.naukri.com/PriyankaPillewan"
+        target="_blank"
+        style="color: rgb(249, 250, 251)"
+        id="info_footer"
+        >Naukri</a
+      >
+    </footer>
+  </body>
 </html>
