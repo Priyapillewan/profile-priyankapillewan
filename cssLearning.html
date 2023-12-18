@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         /* Name Selector */
         p{
@@ -47,6 +48,16 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
+        #friends li{
+            list-style-type: upper-alpha;
+            padding: 5px;
+
+        }
+
+        #books li{
+            list-style-type: lower-roman;
+        }
+
         
 
     </style>
@@ -63,6 +74,26 @@
     <p> I am very good in <span id="web">Web Development </span>  and DSA</p>
     <p id="para">Lorem ipsum dolor sit amet consectetur.</p>
     <p id="learning">I am learning CSS and enjoying too</p>
+
+    <h2>
+        List of friend
+    </h2>
+    <ol id="friends">
+        <li>Jenny</li>
+        <li>Bill</li>
+        <li>Stew</li>
+        <li>Elon</li>
+    </ol>
+
+    <h2 >
+        Bokks I read
+    </h2>
+    <ol id="books">
+        <li>Autobiography of Yogi</li>
+        <li>Ikagai  </li>
+        <li>Automic Habit</li>
+        <li>Seven Habit</li>
+    </ol>
 
 </body>
 </html>
