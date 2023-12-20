@@ -44,6 +44,15 @@
         font-family: 'Poppins', sans-serif;
 
       }
+
+      #experience li{
+        list-style-type: none;
+      }
+      #experience li::before{
+            content: "👉";
+        }
+
+
     </style>
   </head>
   <body>
@@ -55,7 +64,7 @@
     <br />
     <h2 class="mainHeading">Professional Summery</h2>
     <div>
-      <ul>
+      <ul id="experience">
         <li id="li">
           Having 5 years of experience in developing Single page Web
           Applications using <span id="ang">Angular 13</span> HTML5, CSS3,
